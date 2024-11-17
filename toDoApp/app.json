@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "toDoApp",
+    "slug": "toDoApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconM.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/sp.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#a503fc"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-iconM.png",
+        "backgroundColor": "#a503fc"
+      },
+      "package": "com.erastusnzula.toDoApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b8186da5-362c-4888-b852-c33a101e21f2"
+      }
+    }
+  }
+}
